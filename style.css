@@ -1,0 +1,191 @@
+
+
+
+/* @font-face {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    src:  url('WorkSans/WorkSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    src:  url('WorkSans/WorkSans-Medium.ttf') format('truetype');
+} */
+
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src:  url('WorkSans/WorkSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'WorkSans-Medium';
+    src:  url('WorkSans/WorkSans-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'WorkSans-SemiBold';
+    src:  url('WorkSans/WorkSans-SemiBold.ttf') format('truetype');
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    color: #213F7D;
+    font-family: 'WorkSans-Regular', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: none;
+}
+
+/* RESET */
+
+
+
+
+/* STYLE */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 102px 0 102px;
+    background-color: #FAFCFF;
+}
+
+.navigation .navigation-links {
+    font-family: 'WorkSans-SemiBold', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.navigation .navigation-links a {
+    margin-left: 40px;
+}
+
+.navigation .navigation-links a:first-child {
+    margin-left: 0;
+}
+
+/* .navigation .navigation-links {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213F7D;
+} */
+
+
+.hero {
+    background-color: #FAFCFF;
+    padding: 140px 102px 80px 102px;
+}
+
+.hero .hero-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .hero-top .text-container {
+    width: 500px;
+}
+
+.hero .hero-top .text-container .caption {
+    font-family: 'WorkSans-Medium', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #39CDCC;
+    text-transform: uppercase;
+}
+
+.hero .hero-top .text-container h1 {
+    font-family: 'WorkSans-SemiBold', sans-serif;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: -0.02em;
+    margin-top: 32px;
+}
+
+.hero .hero-top .text-container .subtext {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.hero .hero-top .text-container button {
+    width: 280px;
+    padding: 16px 0;
+    background-color: #39CDCC;
+    color: white;
+    border-radius: 8px;
+    font-family: 'WorkSans-SemiBold', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.hero .hero-bottom {
+    margin-top: 120px;
+}
+
+.hero .hero-bottom p {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+}
+
+
+
+
+footer {
+    width: 100%;
+    background-color: #213F7D;
+}
+
+
+
+
+.flex-container {
+    display:flex;
+    background-color: white;
+}
+.flex-container > div {
+    color: navy;
+    margin: 10px;
+    font-size: 20px;
+}
+.center {
+    margin: 0;
+    position: absolute;
+    left: 70%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.FLex-container {
+    display:flex;
+    background-color: navy;
+}
+.FLex-container > div {
+    color: white;
+    margin: 10px;
+    font-size: 10px;
+}
